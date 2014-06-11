@@ -1,4 +1,6 @@
-var browserPref = require('browser-perf');
+'use strict';
+
+var browserPerf = require('browser-perf');
 
 var options = {
     selenium: 'http://ondemand.saucelabs.com',
