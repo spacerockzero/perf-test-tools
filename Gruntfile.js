@@ -5,7 +5,7 @@
 var grunt = require('grunt');
 
 /* globals grunt */
-var currentSession = 'USYSD417EFF65E8F9BEB2113094AF748A277_idses-refa03.a.fsglobal.net';
+var currentSession = 'blah';
 var options = {
   cookie: 'fssessionid='+currentSession,
   timeout: 500,
@@ -15,7 +15,7 @@ var options = {
 grunt.initConfig( {
 
   phantomas : {
-
+    // viewer page on beta
     viewerPage: {
       options: {
         indexPath: './results/viewerPage/',
