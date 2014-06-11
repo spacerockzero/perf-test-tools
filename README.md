@@ -8,3 +8,7 @@ A simple repo containing tools for automated performance testing against local o
 ## To use:
 Set up the config in the ``Gruntfile.js``, and then
 ``grunt perf``
+
+## Uses:
+- Phantomas
+- Grunt-phantomas
